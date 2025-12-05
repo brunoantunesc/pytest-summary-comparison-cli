@@ -1,4 +1,4 @@
-# 🔍 pytest-summary-diff
+# 🔍 pytest-summary-comparison-cli
 
 A small command-line tool that compares two **pytest short test
 summaries** and highlights the differences between them.
