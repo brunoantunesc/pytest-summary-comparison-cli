@@ -65,12 +65,12 @@ def main():
 
     print("\n======= Summary diffs =======\n")
 
-    print_section("🔧 Corrected (before FAILED → after OK)", diff["fixed"])
-    print_section("❌ Regressions (before OK → after FAILED)", diff["regressions"])
-    print_section("🟢 Now XPASS", diff["now_xpass"])
-    print_section("⚠️ Now XFAIL", diff["now_xfail"])
-    print_section("⏭️ Skips removed", diff["skip_removed"])
-    print_section("⏩ Skips added", diff["skip_added"])
+    print_section("Corrected (before FAILED → after OK)", diff["fixed"])
+    print_section("Regressions (before OK → after FAILED)", diff["regressions"])
+    print_section("Now XPASS", diff["now_xpass"])
+    print_section("Now XFAIL", diff["now_xfail"])
+    print_section("Skips removed", diff["skip_removed"])
+    print_section("Skips added", diff["skip_added"])
 
 
 if __name__ == "__main__":
